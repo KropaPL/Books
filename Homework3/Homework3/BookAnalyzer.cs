@@ -246,6 +246,8 @@ namespace Homework3
         {
             Console.Clear();
 
+            filesToProceed.Reverse();
+
             int progress = (int)(((double)proceededFiles.Count / numberOfBooks) * 100);
             if (numberOfBooks == proceededFiles.Count)
             {
